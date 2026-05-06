@@ -8,3 +8,6 @@ for i in range(0,n-1):
             min_index=j
     lst[i],lst[min_index]=lst[min_index],lst[i]
 print(lst)
+
+
+# timme complexity :- so when we calculate the time complexity of selection sort, we can see that it has two nested loops. The outer loop runs n-1 times, and the inner loop runs n-i-1 times. Therefore, the total number of comparisons made by selection sort is (n-1) + (n-2) + ... + 1 + 0, which is equal to n(n-1)/2. This gives us a time complexity of O(n^2) for selection sort.

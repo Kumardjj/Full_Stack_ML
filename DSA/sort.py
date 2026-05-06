@@ -1,5 +1,5 @@
 # Selection sort :- it is a simple sorting algorithm. It works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and swapping it with the first unsorted element until the entire list is sorted.
-lst = [3,4,1,2,6]
+lst = [3,4,1,2,6] 
 n=len(lst)
 for i in range(0,n-1):
     min_index=i

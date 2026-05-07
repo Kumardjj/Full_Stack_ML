@@ -10,4 +10,6 @@ for i in range(0,n-1):
 print(lst)
 
 
-# timme complexity :- so when we calculate the time complexity of selection sort, we can see that it has two nested loops. The outer loop runs n-1 times, and the inner loop runs n-i-1 times. Therefore, the total number of comparisons made by selection sort is (n-1) + (n-2) + ... + 1 + 0, which is equal to n(n-1)/2. This gives us a time complexity of O(n^2) for selection sort.
+# time complexity :- so when we calculate the time complexity of selection sort, we can see that it has two nested loops. The outer loop runs n-1 times, and the inner loop runs n-i-1 times. Therefore, the total number of comparisons made by selection sort is (n-1) + (n-2) + ... + 1 + 0, which is equal to n(n-1)/2. This gives us a time complexity of O(n^2) for selection sort.
+
+# space complexity :- the space complexity of selection sort is O(1) because it only requires a constant amount of additional space to perform the sorting. The algorithm sorts the list in place, meaning it does not require any additional data structures to hold the sorted elements. Therefore, the space complexity is constant.and it is basically the auxiliary space complexity that we are talking about here, which is O(1) for selection sort.

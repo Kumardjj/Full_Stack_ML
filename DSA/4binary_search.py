@@ -14,4 +14,5 @@ while(start <= end):
         print("element found at index: ", middle)
         break
 
-
+# Time complexity of binary search:-
+# tc = O(logn base 2)

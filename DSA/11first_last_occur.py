@@ -1,3 +1,4 @@
+# first and last occurence of an element in a list.
 def first_last_occur(nums,target):
     n = len(nums)-1
     start = 0
@@ -28,3 +29,7 @@ def first_last_occur(nums,target):
 nums = [5,7,7,8,8,10]
 target = 8
 print(first_last_occur(nums,target))
+
+
+# Time complexity = O(logn)
+# Space complexity = O(1)
